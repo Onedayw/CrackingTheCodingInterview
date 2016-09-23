@@ -130,11 +130,7 @@ public class Chapter1 {
     public static String problem6(String s) {
         if (s == null || s.length() == 0) return "";
         int count = 1, n = s.length(), i = 0;
-<<<<<<< HEAD
         char curr;
-=======
-        char curr, next;
->>>>>>> 30dcb5fd3d32b63e0b64b391bddf0bac54582fff
         StringBuilder sb = new StringBuilder();
         while (i < n) {
             curr = s.charAt(i);
